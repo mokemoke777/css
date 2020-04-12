@@ -7,11 +7,11 @@
 
 #### styleの編集
 
-src/thmes以下に任意の名前でファイル作成
+src/themes以下に任意の名前でファイル作成
 
 #### CSS出力先
 
-lib/thmesに.stylのファイル名と同名の.cssファイルが出力される
+lib/themesに.stylのファイル名と同名の.cssファイルが出力される
 
 #### 実行する
 ```
@@ -22,7 +22,7 @@ npm run watch:css
 
 ### ブラウザの見た目確認
 
-VS Code拡張機能のlibe-serverを利用
+VS Code拡張機能のlive-serverを利用
 
 
 

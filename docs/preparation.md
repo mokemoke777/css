@@ -12,7 +12,7 @@ npm run dev
 - 前準備でできたファイル（docsifyトップ/lib/docify.min.js)を`lib/docify.min.js`に配置
 
 #### Themes
-- 前準備でできたCSSが格納されているフォルダ（docsifyトップ/thmes)を`lib/thmes`に配置
+- 前準備でできたCSSが格納されているフォルダ（docsifyトップ/thmes)を`lib/themes`に配置
 - CSSはminifyしないで使うことにする
 
 #### index.html
