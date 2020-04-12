@@ -41,14 +41,11 @@
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       plugins: [
         function (hook, vm) {
+          console.log(vm);
+          console.log('baseurl:' + baseURL)
           hook.beforeEach(function (html) {
-            if (/githubusercontent\.com/.test(vm.route.file)) {
-              url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master')
-            } else {
-              url = 'https://github.com/cocoakamen/memo-docsify/blob/master/docs/' + vm.route.file
-            }
+            url = vm.route.file
+                .replace(baseURL, 'https://github.com/cocoakamen/memo-docsify/blob/master/')
             var editHtml = '[:memo: Edit Document](' + url + ')\n'
 
             return editHtml
