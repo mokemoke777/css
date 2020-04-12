@@ -1,0 +1,15 @@
+{
+  "name": "memo-docsify",
+  "version": "0.0.1",
+  "description": "memo",
+  "scripts": {
+    "css": "node build/css",
+    "watch:css": "npm run css -- -o lib/themes -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-stylus": "^1.0.0",
+    "stylus": "^0.54.7"
+  }
+}
