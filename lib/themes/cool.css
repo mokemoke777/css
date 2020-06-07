@@ -677,8 +677,7 @@ body {
 .markdown-section p,
 .markdown-section ul,
 .markdown-section ol {
-  margin: 0 0 1em 3em;
-  padding-left: 0;
+  margin: 0 0 1em 0em;
 }
 .markdown-section p,
 .markdown-section ul,
