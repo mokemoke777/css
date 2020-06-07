@@ -690,6 +690,9 @@ body {
 .markdown-section ol {
   padding-left: 0rem;
 }
+.markdown-section li {
+  maegin: 0 0 0 0;
+}
 .markdown-section blockquote {
   border-left: 4px solid var(--theme-color, #00ecff);
   color: #858585;
