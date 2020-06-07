@@ -596,7 +596,7 @@ body {
   padding: 0;
 }
 .sidebar li {
-  margin: 0.5em 0 0.5em 0;
+  margin: 0 0 0 0;
 }
 .sidebar ul li a {
   color: #fff;
@@ -606,6 +606,7 @@ body {
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin: 0.5em;
 }
 .sidebar ul li a:hover {
   text-decoration: underline;
@@ -677,7 +678,7 @@ body {
 .markdown-section p,
 .markdown-section ul,
 .markdown-section ol {
-  margin: 0 0 1em 0em;
+  margin: 0 0 1em 3em;
 }
 .markdown-section p,
 .markdown-section ul,

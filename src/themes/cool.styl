@@ -18,7 +18,8 @@ body
   padding 0
 
   li
-    margin 0.5em 0 0.5em 0
+    margin 0 0 0 0
+
 
   ul li a
     color #FFFFFF
@@ -28,12 +29,14 @@ body
     text-decoration none
     text-overflow ellipsis
     white-space nowrap
+    margin 0.5em
 
     &:hover
       text-decoration underline
 
   ul li ul
     padding 0
+
 
   ul li.active > a
     color var(--theme-color, $color-primary)
@@ -97,7 +100,7 @@ body
   font-size 1rem
 
 .markdown-section figure, .markdown-section p, .markdown-section ul, .markdown-section ol
-  margin 0 0 1em 0em
+  margin 0 0 1em 3em
 
 .markdown-section p, .markdown-section ul, .markdown-section ol
   line-height 1.6rem
