@@ -676,13 +676,12 @@ body {
 }
 .markdown-section figure,
 .markdown-section p,
-.markdown-section ul,
 .markdown-section ol {
   margin: 0 0 1em 3em;
   padding-left: 0 0 0 0;
 }
 .markdown-section li {
-  margin: 0 0 0 0.5em;
+  margin: 0 0 0 3em;
 }
 .markdown-section p,
 .markdown-section ul,
