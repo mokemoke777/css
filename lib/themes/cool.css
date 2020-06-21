@@ -686,7 +686,7 @@ body {
   line-height: 1.6rem;
   word-spacing: 0.05rem;
 }
-.markdown-section ul p {
+.markdown-section li p {
   margin: 0 0 1em 0;
 }
 .markdown-section blockquote {
