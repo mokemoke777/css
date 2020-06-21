@@ -251,7 +251,7 @@ main.hidden {
   display: block;
 }
 .sidebar ul li ul {
-  padding-left: 0px;
+  padding-left: 20px;
 }
 .sidebar::-webkit-scrollbar {
   width: 4px;
@@ -687,7 +687,7 @@ body {
   word-spacing: 0.05rem;
 }
 .markdown-section ul p {
-  margin: 0 0 1em 2em;
+  margin: 0 0 1em 0;
 }
 .markdown-section blockquote {
   border-left: 4px solid var(--theme-color, #00ecff);

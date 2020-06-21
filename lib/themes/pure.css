@@ -250,7 +250,7 @@ main.hidden {
   display: block;
 }
 .sidebar ul li ul {
-  padding-left: 0px;
+  padding-left: 20px;
 }
 .sidebar::-webkit-scrollbar {
   width: 4px;
